@@ -22,7 +22,7 @@ function sunset_add_admin_page() {
 add_action( 'admin_menu', 'sunset_add_admin_page' );
 
 function ourMapKey($api){
-    $api['key'] = 'AIzaSyAtm9wWLUiyUOajtQMjHj9LzBYmI4pf-3o';
+    $api['key'] = '';
     return $api;
 }
 
